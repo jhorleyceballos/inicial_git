@@ -1,1 +1,1 @@
-alert('Git funciona');
+document.write("lo ques sea")
