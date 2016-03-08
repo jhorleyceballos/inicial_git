@@ -29,15 +29,15 @@ function update(){
     if (y > canvas.height) y = 0
     if (y < 0) y = canvas.height
     //left
-    if (lastPress === 39) x += 2;
+    if (lastPress === 39) x += 5;
     //right
-    if (lastPress === 37) x -= 2;
+    if (lastPress === 37) x -= 5;
     //up
-    if (lastPress === 38) y -= 2;
+    if (lastPress === 38) y -= 5;
     //down
-    if (lastPress === 40) y += 2;
+    if (lastPress === 40) y += 5;
     //default
-    if (lastPress === null) x += 2;
+    if (lastPress === null) x += 5;
 }
 
 function init() {
