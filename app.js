@@ -33,9 +33,9 @@ function update(){
     //right
     if (lastPress === 37) x -= 5;
     //up
-    if (lastPress === 38) y -= 5;
+    if (lastPress === 38) y -= 8;
     //down
-    if (lastPress === 40) y += 5;
+    if (lastPress === 40) y += 8;
     //default
     if (lastPress === null) x += 5;
 }
