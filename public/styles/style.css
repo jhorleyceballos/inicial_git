@@ -1,0 +1,12 @@
+html, body {
+    background-color: Tomato;
+}
+
+h1 {
+    color: #FFF;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+}
